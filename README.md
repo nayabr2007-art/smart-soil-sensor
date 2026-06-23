@@ -38,7 +38,7 @@ LED Short Leg (Negative Cathode) ──> GND Pin
 2. Pin 'D34' reads the voltage passing through the soil to determine moisture based on electrical resistance
 3. The '10kΩ resistor' connects pin D34 to 'GND', acting as a pull-down resistor to stabilize the readings
 
-## Challenges Faced & Engineering Tradeoffs
+## Challenges Faced 
 *Rapid Probe Corrosion (Electrolysis): Sending a continuous current through wet soil causes raw jumper wires to oxidize quickly affecting readings over time. (Fix: Power the probe only during active reading intervals)
 
 ## 📝 Small Note
