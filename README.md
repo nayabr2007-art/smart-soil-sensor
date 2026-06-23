@@ -29,9 +29,9 @@ Red LED
 LED Long Leg (Positive Anode) ──> 220Ω Resistor` ──> D14 (Digital Output Pin)
 LED Short Leg (Negative Cathode) ──> GND Pin
  
-| **Power Probe** | 3V3 Pin | Straight into the soil |
-| **Sensor Probe** | D34 (Analog Input Pin) | Straight into the soil |
-| **Pull-down Resistor** | D34 (Analog Input Pin) | In series with a 10kΩ Resistor to GND |
+*| **Power Probe** | 3V3 Pin | Straight into the soil |
+*| **Sensor Probe** | D34 (Analog Input Pin) | Straight into the soil |
+*| **Pull-down Resistor** | D34 (Analog Input Pin) | In series with a 10kΩ Resistor to GND |
 
 ###🔧 How It Works
 1. The '3V3 pin' sends constant voltage into the soil via the power probe
